@@ -27,9 +27,12 @@ export CASE_SENSITIVE="true"
 # disable autosetting terminal title.
 export DISABLE_AUTO_TITLE="true"
 
+export HIST_STAMPS="yyyy-mm-dd"
+export ENABLE_CORRECTION="true"
+
 # Which plugins would you like to load? (plugins can be found in ~/.dotfiles/oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(colorize compleat dirpersist autojump git gulp history cp)
+plugins=(adb aws battery brew brew-cask colorize compleat copydir copyfile dircycle dirpersist autojump git github gitignore gulp go gpg-agent heroku history jump nmap cp osx python rsync ssh-agent sublime sudo urltools vagrant vundle web-search wp-cli xcode zsh-navigation-tools)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -52,4 +55,4 @@ load-nvmrc
 unsetopt correct
 
 # run fortune on new terminal :)
-fortune
+#fortune

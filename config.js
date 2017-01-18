@@ -43,12 +43,13 @@ module.exports = {
     'vim --with-override-system-vi',
     'watch',
     // Install wget with IRI support
-    'wget --enable-iri'
+    'wget --enable-iri --with-gpgme --with-libmetalink --with-pcre'
   ],
   cask: [
     //'adium',
     //'amazon-cloud-drive',
-    //'atom',
+    'atom',
+    'bartender',
     'box-sync',
     //'comicbooklover',
     //'diffmerge',
@@ -57,16 +58,18 @@ module.exports = {
     'gpgtools',
     //'ireadfast',
     'iterm2',
-    'little-snitch',
-    'micro-snitch',
-    //'macvim',
+    'java',
+    //'little-snitch',
+    //'micro-snitch',
+    'macvim',
+    'macdown',
     'sizeup',
     //'sketchup',
     'slack',
     'the-unarchiver',
-    //'torbrowser',
+    'torbrowser',
     //'transmission',
-    //'vlc',
+    'vlc',
     'xquartz'
   ],
   gem: [
