@@ -78,7 +78,7 @@ To launch fullscreen, hit `Command + Enter` in iTerm, then use `Command + d` and
 Note: I recommend forking this repo in case you don't like anything I do and want to set your own preferences (and pull request them!)
 
 ```bash
-git clone --recurse-submodules https://github.com/atomantic/dotfiles ~/.dotfiles
+git clone --recurse-submodules https://github.com/bjornrun/dotfiles ~/.dotfiles
 cd ~/.dotfiles;
 # run this using terminal (not iTerm, lest iterm settings get discarded on exit)
 ./install.sh
@@ -375,7 +375,7 @@ Please refer to the [Contributor Covenant](https://github.com/atomantic/dotfiles
 2. Bugs with the setup should be put as GitHub issues.
 3. Mehs should be > /dev/null
 4. Praise should be directed to ![@antic](https://img.shields.io/twitter/follow/antic.svg?style=social&label=@antic)
-
+5. Comments regarding this updated version can be sent to ![@bjorn9run](https://img.shields.io/twitter/follow/bjorn9run.svg?style=social&label=@bjorn9run)
 
 # ¯\\_(ツ)_/¯ Warning / Liability
 > Warning:
